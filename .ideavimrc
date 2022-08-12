@@ -1,0 +1,6 @@
+set surround
+nnoremap s :action AceAction<CR>
+map <C-h> :action TypeHierarchy<CR>
+map <C-s> :action SaveAll<CR>
+command! GBlame action Annotate
+command! Gread action Rollback

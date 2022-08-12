@@ -1,6 +1,8 @@
 set -e
 cp .bash_profile ~/
 cp .gitconfig ~/
+cp .vimrc ~/
+cp .ideavimrc ~/
 xcode-select --install
 sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 

@@ -14,6 +14,7 @@ brew install --cask spotify
 brew install --cask aldente
 brew install --cask google-chrome
 brew install docker
+brew install vim
 
 mkdir -p ~/.config/karabiner/assets/complex_modifications/
 cp karabiner/karabiner.json ~/.config/karabiner/karabiner.json

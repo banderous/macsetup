@@ -1,4 +1,5 @@
 alias dc=docker-compose
+set -o vi
 
 findport() {
     lsof -nP "-iTCP:$1" | grep LISTEN

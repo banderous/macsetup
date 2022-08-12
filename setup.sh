@@ -23,7 +23,8 @@ brew install --cask intellij-idea-ce
 brew install --cask spotify
 brew install --cask aldente
 brew install --cask google-chrome
-brew install docker
+brew install --cask docker
+brew install --cask slack
 brew install vim
 
 mkdir -p ~/.config/karabiner/assets/complex_modifications/

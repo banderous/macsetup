@@ -1,5 +1,6 @@
+set -e
 xcode-select --install
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew install --cask iterm2
 brew install --cask karabiner-elements
@@ -13,6 +14,7 @@ cp karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 cp -r karabiner/assets/complex_modifications/ ~/.config/karabiner/assets/complex_modifications/
 
 curl -s "https://get.sdkman.io" | bash
+source ~/.sdkman/bin/sdkman-init.sh
 
 sdk install java 11.0.14-ms
 

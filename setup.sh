@@ -4,7 +4,7 @@ cp .gitconfig ~/
 cp .vimrc ~/
 cp .ideavimrc ~/
 sudo mkdir -p -m 775 /usr/local/bin
-cp g /usr/local/bin/
+sudo cp g /usr/local/bin/
 xcode-select --install
 sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 

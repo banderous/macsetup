@@ -14,6 +14,9 @@ sudo cp g /usr/local/bin/
 xcode-select --install
 sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew install azure-cli
+az login
+
 brew install --cask iterm2
 brew install --cask karabiner-elements
 brew install --cask intellij-idea-ce

@@ -3,6 +3,12 @@ cp .bash_profile ~/
 cp .gitconfig ~/
 cp .vimrc ~/
 cp .ideavimrc ~/
+
+read -p "Enter email: " email
+ssh-keygen -t ed25519 -C "$email"
+eval "$(ssh-agent -s)"
+cp sshconfig ~/.ssh/config
+
 sudo mkdir -p -m 775 /usr/local/bin
 cp g /usr/local/bin/
 xcode-select --install

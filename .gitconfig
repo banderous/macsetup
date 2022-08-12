@@ -1,0 +1,13 @@
+[user]
+  name = Alex McAusland
+  email = a.m@user.com
+[push]
+  default = simple
+[alias]
+  co = checkout
+  cob = checkout -b
+  br = branch
+  st = status
+  ci = commit
+[pull]
+	rebase = false

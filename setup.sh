@@ -10,6 +10,7 @@ brew install --cask aldente
 brew install --cask google-chrome
 brew install docker
 
+mkdir -p ~/.config/karabiner/assets/complex_modifications/
 cp karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 cp -r karabiner/assets/complex_modifications/ ~/.config/karabiner/assets/complex_modifications/
 

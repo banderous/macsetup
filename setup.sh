@@ -25,6 +25,7 @@ brew install --cask aldente
 brew install --cask google-chrome
 brew install --cask docker
 brew install --cask slack
+brew install --cask gimp
 brew install vim
 
 mkdir -p ~/.config/karabiner/assets/complex_modifications/

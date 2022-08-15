@@ -1,5 +1,5 @@
 set -e
-ln -sf "$(pwd)/.bash_profile" ~/
+ln -sf "$(pwd)/.zshrc" ~/
 ln -sf "$(pwd)/.gitconfig" ~/
 ln -sf "$(pwd)/.vimrc" ~/
 ln -sf "$(pwd)/.ideavimrc" ~/

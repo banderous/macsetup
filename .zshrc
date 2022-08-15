@@ -1,12 +1,8 @@
 alias dc=docker-compose
 set -o vi
 
-findport() {
-    lsof -nP "-iTCP:$1" | grep LISTEN
-}
-
 killport() {
-  kill -9 $(findport $1 | awk '{print $2}' | sed s/*://g)
+    lsof -ti "tcp:$1" | xargs kill -9
 }
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!

@@ -20,6 +20,8 @@ brew install azure-cli
 az login
 
 brew install --cask iterm2
+open SolarizedDark.itermcolors
+
 brew install --cask karabiner-elements
 brew install --cask intellij-idea-ce
 brew install --cask spotify

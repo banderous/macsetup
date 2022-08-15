@@ -3,6 +3,7 @@ cp .bash_profile ~/
 cp .gitconfig ~/
 cp .vimrc ~/
 cp .ideavimrc ~/
+cp solarized.vim ~/.vim/colors/
 sudo mkdir -p -m 775 /usr/local/bin
 sudo cp g /usr/local/bin/
 xcode-select --install

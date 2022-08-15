@@ -1,18 +1,18 @@
 set -e
-cp .bash_profile ~/
-cp .gitconfig ~/
-cp .vimrc ~/
-cp .ideavimrc ~/
+ln -s .bash_profile ~/
+ln -s .gitconfig ~/
+ln -s .vimrc ~/
+ln -s .ideavimrc ~/
 mkdir -p ~/.vim/colors
-cp solarized.vim ~/.vim/colors/
+ln -s solarized.vim ~/.vim/colors/
 
 read -p "Enter email: " email
 ssh-keygen -t ed25519 -C "$email"
 eval "$(ssh-agent -s)"
-cp sshconfig ~/.ssh/config
+ln -s sshconfig ~/.ssh/config
 
 sudo mkdir -p -m 775 /usr/local/bin
-sudo cp g /usr/local/bin/
+sudo ln -s g /usr/local/bin/
 xcode-select --install
 sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -33,7 +33,7 @@ brew install --cask gimp
 brew install vim
 
 mkdir -p ~/.config/karabiner/assets/complex_modifications/
-cp karabiner/karabiner.json ~/.config/karabiner/karabiner.json
+ln -s karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 cp -r karabiner/assets/complex_modifications/ ~/.config/karabiner/assets/complex_modifications/
 
 curl -s "https://get.sdkman.io" | bash

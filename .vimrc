@@ -25,7 +25,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-unimpaired'
 Plug 'kien/ctrlp.vim'
 " Plug 'easymotion/vim-easymotion'
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
 
 " Initialize plugin system
 call plug#end()

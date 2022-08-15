@@ -3,6 +3,7 @@ cp .bash_profile ~/
 cp .gitconfig ~/
 cp .vimrc ~/
 cp .ideavimrc ~/
+mkdir -p ~/.vim/colors
 cp solarized.vim ~/.vim/colors/
 
 read -p "Enter email: " email

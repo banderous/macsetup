@@ -31,6 +31,7 @@ brew install --cask docker
 brew install --cask slack
 brew install --cask gimp
 brew install vim
+brew install coreutils
 
 mkdir -p ~/.config/karabiner/assets/complex_modifications/
 ln -sf "$(pwd)/karabiner/karabiner.json" ~/.config/karabiner/karabiner.json

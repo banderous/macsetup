@@ -1,6 +1,9 @@
 alias dc=docker-compose
 set -o vi
 
+bindkey -v
+bindkey '^R' history-incremental-search-backward
+
 killport() {
     lsof -ti "tcp:$1" | xargs kill -9
 }

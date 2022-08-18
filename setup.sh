@@ -43,3 +43,5 @@ source ~/.sdkman/bin/sdkman-init.sh
 sdk install java 11.0.14-ms
 
 
+# Enable key repeat in intellij
+defaults write -g ApplePressAndHoldEnabled -bool false

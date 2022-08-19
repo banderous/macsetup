@@ -33,9 +33,7 @@ brew install --cask gimp
 brew install vim
 brew install coreutils
 
-mkdir -p ~/.config/karabiner/assets/complex_modifications/
-ln -sf "$(pwd)/karabiner/karabiner.json" ~/.config/karabiner/karabiner.json
-cp -r karabiner/assets/complex_modifications/ ~/.config/karabiner/assets/complex_modifications/
+ln -sf "$(pwd)/karabiner" ~/.config/karabiner
 
 curl -s "https://get.sdkman.io" | bash
 source ~/.sdkman/bin/sdkman-init.sh

@@ -33,7 +33,7 @@ brew install --cask gimp
 brew install vim
 brew install coreutils
 
-ln -sf "$(pwd)/karabiner" ~/.config/karabiner
+cp -r karabiner ~/.config
 
 curl -s "https://get.sdkman.io" | bash
 source ~/.sdkman/bin/sdkman-init.sh

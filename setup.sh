@@ -30,6 +30,7 @@ brew install --cask google-chrome
 brew install --cask docker
 brew install --cask slack
 brew install --cask gimp
+brew install --cask anaconda
 brew install vim
 brew install coreutils
 
@@ -40,6 +41,7 @@ source ~/.sdkman/bin/sdkman-init.sh
 
 sdk install java 11.0.14-ms
 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Enable key repeat in intellij
 defaults write -g ApplePressAndHoldEnabled -bool false

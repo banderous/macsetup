@@ -31,6 +31,7 @@ brew install --cask docker
 brew install --cask slack
 brew install --cask gimp
 brew install --cask anaconda
+brew install --cask visual-studio-code
 brew install vim
 brew install coreutils
 
